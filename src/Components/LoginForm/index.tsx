@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navigate, useParams } from 'react-router-dom';
 import { signIn } from '../../utils/firebase';
 import { Button, Checkbox, Form, Input } from 'antd';
-import  "./style/index.scss"
+
 
 type Props = {
     authed: boolean
